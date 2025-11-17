@@ -19,10 +19,19 @@ Table I. Bearing Faults Details
 |I and O   |wire-cutting damage, with a width and depth of 0.55 mm and 1 mm|
 
 ### Sensor
-This dataset use a VALENIAN piezoelectric acceleration sensor with a sensitivity of 10.22 mV/m·s². The sampling frequency is set as 20 kHz.
+This dataset use a single axis VALENIAN piezoelectric acceleration sensor with a sensitivity of 10.22 mV/m·s². The sampling frequency is set as 20 kHz.
 
 ### Working Condition
 During the data collection process, the equipment operates without any load. Data collection is completed at four rotational speeds: rpm = 800, 1000, 1200, and 1400.
 
 ## 3. Dataset Description
+This dataset contains a total of 80 data files in .mat format. The explanation of the file names is as follows: Take the data file N_1000_3.mat as an example. "N" indicates that the bearing is in a normal health condition (for the correspondence between letter codes and fault types, see Section 2). "1000" means the data was collected when the motor rotational speed was 1000 rpm. "3" means this data file is the third one among the N_1000 data files series (in fact, the five sets of data from N_1000_1 to N_1000_5 were collected continuously and divided into five data files only for the convenience of storage).
+
+Each .mat file should focus on the following attributes:
+
+Data:            The collected single-axis vibration data.
+
+Datacount:       The number of data points in this data file.
+
+SampleFrequency: Sampling frequency.
 
