@@ -2,7 +2,7 @@
 ## 1. Dataset Overview
 This dataset consists of vibration data collected from a laboratory test bench, including 4 bearing health conditions and 4 rotational speeds. The dataset is open-source and can be used for any bearing fault detection research. Publications utilizing this dataset are required to cite the following paper.
 
-C. Liu et al., A New Target Domain One-Class Learning Bearing Fault Detection Framework, doi: xxx
+C. Liu et al., "A New Target Domain One-Class Learning Bearing Fault Detection Framework", doi: currently unassigned.
 
 <img width="520" height="347" alt="设备照片" src="https://github.com/user-attachments/assets/9e043c9d-5533-4e09-9394-977511f104d4" />
 
