@@ -19,7 +19,7 @@ Table I. Bearing Faults Details
 |I and O   |wire-cutting damage, with a width and depth of 0.55 mm and 1 mm|
 
 ### Sensor
-This dataset use a single axis VALENIAN piezoelectric acceleration sensor with a sensitivity of 10.22 mV/m·s². The sampling frequency is set as 20 kHz.
+This dataset uses a single axis VALENIAN piezoelectric acceleration sensor with a sensitivity of 10.22 mV/m·s². The sampling frequency is set as 20 kHz.
 
 ### Working Condition
 During the data collection process, the equipment operates without any load. Data collection is completed at four rotational speeds: rpm = 800, 1000, 1200, and 1400.
